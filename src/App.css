@@ -1,0 +1,204 @@
+html {
+  font-size: 90.5%;
+}
+.hello{
+  display: flex;
+  flex-direction: inherit;
+}
+div {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: row; */
+}
+
+p {
+  font-size: 4rem;
+}
+.row{
+  margin-right: 28px;
+}
+h1 {
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.h1style {
+  min-width: 20rem;
+  width: 60rem;
+ margin-bottom: -3rem;
+  background-color: azure;
+  color: #2980b9;
+  border-radius: 5rem;
+  box-shadow: 0rem 2rem 2rem -1.5rem rgba(0, 0, 0, 0.5);
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.btn,
+.btnInner {
+  margin: auto;
+  margin-top: 2rem;
+  border: none;
+  outline: none;
+  padding: 1rem 3rem;
+  background-color: #2980b9;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 1rem;
+  font-size: 3rem;
+}
+
+.btnInner {
+  background-color: #d12b54;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.5rem;
+  margin-left: 4rem;
+}
+
+.btn:hover {
+  background-color: #136ca7;
+}
+
+form {
+  background: cornflowerblue;
+  padding: 2rem;
+  border-radius: 1rem;
+  outline: none;
+  text-align: left;
+}
+
+form label {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+form input {
+  min-width: 20rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  text-align: left;
+  border: none;
+  margin-top: 0.3rem;
+  padding: 0.5rem;
+  outline: none;
+}
+
+button[type] {
+  border: none;
+  padding: 0.4rem 1rem;
+  text-align: center;
+  margin-top: 1rem;
+  font-family: "Raleway", sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  outline: none;
+}
+
+button[type]:hover {
+  background-color: darkblue;
+  color: aliceblue;
+}
+
+/* .showDataStyle {
+  min-width: 20rem;
+  width: 60rem;
+  min-height: 2rem;
+  padding: 1rem;
+  background: rgb(207, 151, 68);
+  color: aliceblue;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 1rem -0.8rem rgba(0, 0, 0, 0.5);
+} */
+
+.showDataStyle p {
+  font-size: 1.5rem;
+}
+
+.showDataStyle p:first-child {
+  font-weight: bold;
+}
+
+ body {
+  background-color: #06abf8;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  text-shadow: #06abf8;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: rgb(197, 235, 241);
+  text-align: center;
+  margin: 20px 0;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.loadingDiv {
+  color: #000;
+  height: 50vh;
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  width: 313px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 0px;
+}
+
+.image {
+  min-width: 155px;
+  margin-right: 10px;
+}
+
+.stats {
+  width: 100px;
+  background: #f2f5f8 !important;
+  color: #000 !important;
+}
+
+.articles {
+  font-size: 10px;
+  color: #485366;
+}
+
+.number1 {
+  font-weight: 500;
+}
+
+.followers {
+  font-size: 10px;
+  color: #485366;
+}
+
+.number2 {
+  font-weight: 500;
+}
+
+.rating {
+  font-size: 10px;
+  color: #485366;
+}
+
+.number3 {
+  font-weight: 500;
+} 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: -4.5rem;
+}
