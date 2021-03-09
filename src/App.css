@@ -60,7 +60,12 @@ h1 {
 .btn:hover {
   background-color: #136ca7;
 }
-
+.select{
+  display: inline-block;
+  position: relative;
+  margin-left: 4em;
+  top: 9em;
+}
 form {
   background: cornflowerblue;
   padding: 2rem;
@@ -155,7 +160,7 @@ h2 {
 }
 
 .card {
-  width: 313px;
+  width: 320px;
   border: none;
   border-radius: 10px;
   background-color: #fff;
